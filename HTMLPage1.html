@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato - Order Your Food</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+    <style>
+        /* تصغير حجم الـ iframe */
+        .iframe-container {
+            position: relative;
+            width: 60%; /* تصغير العرض */
+            height: 0;
+            padding-top: 50%; /* تصغير الطول */
+            box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+            margin-top: 1.6em;
+            margin-bottom: 0.9em;
+            overflow: hidden;
+            border-radius: 8px;
+            will-change: transform;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <div class="iframe-container">
+        <iframe loading="lazy"
+            src="https://www.canva.com/design/DAGjimWM-Kk/1pMabxYqMSFIXGlxi2W_4Q/view?embed"
+            allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+    </div>
+    <a href="https://www.canva.com/design/DAGjimWM-Kk/1pMabxYqMSFIXGlxi2W_4Q/view?utm_content=DAGjimWM-Kk&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+       target="_blank" rel="noopener">قائمة طعام أسود وذهبي</a> by Youssef Ehab
+</div>
+
+</body>
+</html>
+
